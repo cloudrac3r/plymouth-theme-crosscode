@@ -6,6 +6,10 @@ All assets from the game [CrossCode](https://cross-code.com/en/home), used witho
 
 Complements the fantastic [CrossGrub](https://github.com/krypciak/crossgrub) theme by krypciak.
 
+Background is 1920x1080 with square pixels.
+
+![Screenshot](plymouth-theme-crosscode/usr/share/plymouth/themes/crosscode/background.png)
+
 ## Install on Fedora
 
 Use this command to create an RPM file in ~/rpmbuild/RPMS/x86_64:
