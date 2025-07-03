@@ -26,3 +26,9 @@ On Immutable Fedora distributions (Silverblue/Kinoite) you need to run these com
 You only need to do this once and it will stay installed. To update an existing installation on Immutable Fedora, you need to run this command:
 
     sudo rpm-ostree install ~/rpmbuild/RPMS/x86_64/plymouth-theme-crosscode-INSERT_NEW_VERSION_NUMBER.rpm --uninstall plymouth-theme-crosscode
+
+## Enable
+
+    sudo plymouth-set-default-theme crosscode
+
+This will update /etc/plymouth/plymouthd.conf with your selection.
